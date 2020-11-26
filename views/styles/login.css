@@ -1,0 +1,31 @@
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.logincontent {
+  margin: 100px auto;
+  max-width: 500px;
+}
+
+.logincontent .panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.logincontent .panel > * {
+  display: block;
+  margin: 10px;
+}
+
+.logincontent .panel input {
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+label {
+    cursor: pointer;
+}
